@@ -11,3 +11,4 @@ How to use:
 8. To generate using the model, open generate.py and change the model name in torch.load('model-5000.pt', weights_only=False) to whatever your model is named and change the max_new_tokens variable to how many character you would like to generate and run the file
 
 One model will always generate the same thing if given the same number of max_new_tokens, and if the model is trained for too many iterations, it will overfit and just quote the Shakespeare text input given.
+Other text input can also be given. Just replace the contents of input.txt.
